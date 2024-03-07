@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    font-family:sans-serif;
+    border: border-box;
+    max-width: 100%;
+}
+   
+
+/* navigation bar  */
+.navbar{
+    height: 60px;
+    /* width: 100vw; */
+    background-color: #7D0A0A;
+    color: #F3EDC8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu{
+   padding-left: 10px;
+
+}
+
+.nav_name{
+    position: absolute;
+    left: 500px;
+}
+
+.name_logo{
+    position: absolute;
+    left: 600px;
+}
+
+.nav_sign{
+    height: 60%;
+    width: 10%;
+    background-color: #F3EDC8;
+    border-radius: 20px;
+    color: #7D0A0A;
+}
+
+.nav_sign p{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.nav_signup{
+   position: relative;
+   right: 15px;
+}
+
+.nav_signin{
+    position: relative;
+    left: 500px;
+}
+
+/* main page 1*/
+
+.main{
+    height: 600px;
+    width: 100%;
+    background-image: url(main_bg.png);
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+.main_msg{
+    background-color: #7D0A0A;
+    color: #F3EDC8;
+    height: 60px;
+    width: 700px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 25%;
+    bottom: 40%;
+}
+
+.main_srch{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    position: absolute;
+}
+
+.srch_bar{
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    left: 380px;
+}
+
+.srch_bar input{
+    height: 50px;
+    width: 600px; 
+    border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: large; 
+    
+}
+    
+/* main page 2 */
+.main2{
+    height: 400px;
+    background-color: #F3EDC8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2_left{
+    height: 400px;
+    width: 40%;
+    background-color: #F3EDC8;
+}
+
+.title{
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #7D0A0A;
+}
+.msg{
+    padding: 20px;
+}
+
+.button{
+    padding-left: 60px;
+}
+
+.but_class{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #7D0A0A;
+}
+
+.button p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: #F3EDC8;
+    
+}
+
+.main2_right{
+    height: 400px;
+    width: 60%;
+    background-color: #F3EDC8;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.main2_right img {
+    padding: 30px;
+}
+
+/* main3 */
+.main3{
+    height: 400px;
+    background-color: #F3EDC8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main3_left{
+    height: 400px;
+    width: 60%;
+    background-color: #F3EDC8;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+
+.main3_right{
+    height: 400px;
+    width: 40%;
+    background-color: #F3EDC8;
+    padding-right: 150px;
+
+}
+
+/* main4 */
+
+.main4{
+    height: 500px;
+    background-image: url(grocer.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.heading p{
+    text-align: center;
+    font-size: 50px;
+    color: #7D0A0A;
+    font-weight: bold;
+    position: absolute;
+    top: 1550px;
+    left: 300px;
+}
+
+.mid-msg p{
+    text-align: center;
+    font-size: 25px;
+    color: #7D0A0A;
+    position: absolute;
+    top: 1700px;
+    left: 450px;
+}
+
+.last-msg p{
+    text-align: center;
+    font-size: 25px;
+    color: #7D0A0A;
+    position: absolute;
+    top: 1750px;
+    left: 220px;
+}
+
+.button4 {
+    position: absolute;
+    top: 1830px;
+    left: 560px;
+}
+
+.button4 p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: #F3EDC8;
+}
+
+/* footer */
+
+footer{
+    background-color: red;
+    height: 200px;
+}
+
+.foot-panel1{
+    background-color: #7D0A0A;
+    color: #F3EDC8;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel2{
+    font-size: 0.8rem;
+    text-align: center;
+    height: 77px;
+    background-color: #7D0A0A;
+    color: #F3EDC8;
+     
+}
+
+.pages{
+    
+    padding-top: 25px ;
+}
+
+.copyright{
+    background-color: #7D0A0A;
+    color: #F3EDC8; 
+    font-size: 0.7rem;
+    text-align: center;
+    padding-bottom: 15px;
+}
